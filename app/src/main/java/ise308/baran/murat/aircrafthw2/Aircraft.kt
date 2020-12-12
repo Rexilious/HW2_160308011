@@ -5,7 +5,7 @@ import android.util.Log
 open class Aircraft(val brand: String, val aModel: String, val avgAirSpeed: Double) {  // aModel represent "aircraft model"
 
 
-    var current: String = "It will set aga."
+    var current: String = "It will set again."
     constructor(brand: String, aModel: String, avgAirSpeed: Double, current: String):this(brand, aModel, avgAirSpeed) {
         this.current = current
 
